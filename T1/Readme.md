@@ -1,5 +1,5 @@
 
-##Workshop 1: Emergence and self-organization##
+## Workshop 1: Emergence and self-organization
 
 This workshop introduces notions of coding and mathematical models to simulate properties living systems: emergence, self-organization, adaptation, self-maintenance, etc.
 
