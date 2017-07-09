@@ -855,6 +855,6 @@ def dfa(X, Ave = None, L = None):
 		F[i] /= ((len(X)/n)*n)
 	F = sqrt(F)
 	
-	Alpha = lstsq(vstack([log(L), ones(len(L))]).T,log(F))[0][0]
+#	Alpha = lstsq(vstack([log(L), ones(len(L))]).T,log(F))[0][0]
 	
-	return Alpha,L[::-1],F[::-1]
+	return L[::-1],F[::-1]
