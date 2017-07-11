@@ -87,8 +87,8 @@ class Player:
 
 
 
-def play_with(strategy1, strategy2):
-    rounds_per_game = 100
+def play_with(strategy1, strategy2, rounds):
+    rounds_per_game = rounds
     alice = Player('Alice', globals()[strategy1]()) 
     bob = Player('Bob', globals()[strategy2]()) 
     Game([alice, bob], 'PrisonerMatrix', rounds_per_game).start()
